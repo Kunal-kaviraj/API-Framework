@@ -1,0 +1,118 @@
+<Config>
+
+    <ChannelService>
+        <url>https://qa-api.qvc.com/api/sales/programming/v1</url>
+    </ChannelService>
+
+    <ChannelServiceInternal>
+        <url>http://qa-internal-api.qvcdev.qvc.net/api/sales/programming/v1</url>
+    </ChannelServiceInternal>
+
+    <OvpManagerService>
+        <url>https://qa-internal-api.qvcdev.qvc.net/ovp-manager-service</url>
+        <userName>ovp_manager_service_admin</userName>
+        <password>Is0UMLh0WHhLaf10GZlEQK/EWJA+jaKkpzueEnxukEI=</password>
+        <secret>fgASzOplambKclOy</secret>
+    </OvpManagerService>
+
+    <McasaMediaAssetService>
+        <url>https://qa-internal-api.qvcdev.qvc.net/mcasa-media-asset-service</url>
+        <userName>mcasa_system_qa</userName>
+        <password>a0P3y4iIFFMdrXnSguAYdA==</password>
+        <secret>fgASzOplambKclOy</secret>
+    </McasaMediaAssetService>
+
+    <McasaDatabase>
+        <Class>com.mysql.cj.jdbc.Driver</Class>
+        <URL>jdbc:sqlserver://SQLLIST2004</URL>
+        <User>MCASA_app_qa</User>
+        <Password>63zIWpyq3lI1JIfHgp8fDw==</Password>
+        <Secret>H_#5Haq4)HFd5SFV</Secret>
+    </McasaDatabase>
+
+    <DawnDatabase>
+        <Class>com.mysql.cj.jdbc.Driver</Class>
+        <URL>jdbc:sqlserver://sqllist2023</URL>
+        <User>dawn_app</User>
+        <Password>#+J-C7zXEhtaKNfq</Password>
+    </DawnDatabase>
+
+    <MapsRunDownService>
+        <url>https://qa-internal-api.qvcdev.qvc.net/maps-rundown-manager</url>
+        <userName>rundown_manager_admin</userName>
+        <password>Is0UMLh0WHhLaf10GZlEQK/EWJA+jaKkpzueEnxukEI=</password>
+        <secret>fgASzOplambKclOy</secret>
+    </MapsRunDownService>
+    
+    <SQLLIST2025>
+    	<Class>com.mysql.cj.jdbc.Driver</Class>
+        <URL>jdbc:sqlserver://sqllist2025;Initial Catalog=QRG1;databaseName=QRG1</URL>
+        <User>VECAPPA</User>
+        <Password>7edEhli03YQ65oaoDVz8tQ==</Password>
+        <Secret>b2jv}K39Gj(PfO43</Secret>
+    </SQLLIST2025>
+    
+    <VideoSearchService>
+    	<url>https://qa-api.qvc.com/api/sales/broadcasting/v1</url>
+    </VideoSearchService>
+    
+    <VideoSearchServiceInternal>
+    	<url>https://qa-internal-api.qvcdev.qvc.net/api/sales/broadcasting/v1</url>
+    </VideoSearchServiceInternal>
+    
+    <VideoSearchK8SwaggerService>
+    	<url>https://mdal-videosearch-ovp-qvc-us-qa.paw-shr-non.wch.qvcdev.qvc.net/rest/videos</url>
+    </VideoSearchK8SwaggerService>
+
+    <MediaStorageManagerService>
+    	<url>http://qa-internal-api.qvcdev.qvc.net/media-storage-manager</url>
+    	<userName>media_storage_manager_admin</userName>
+        <password>ljnWmHd1wDYgKiCAOsEMn5wa2/vnkDtV1i9NloRzIXI=</password>
+        <secret>d2F(k#bJg49wI+lG</secret>
+    </MediaStorageManagerService>
+    
+    <ContentPlanningService>
+    	<url>http://qa-content-planning.qvcdev.qvc.net/contentplanning-api</url>
+    	<userName>mcasa_system_user</userName>
+        <password>DN0uQtGNt/QZ4542WY9xlw==</password>
+        <secret>fgASzOpl%mbKclOy</secret>
+    </ContentPlanningService>
+    
+    <VideoSegmenter>
+    	<url>https://qa-internal-api.qvcdev.qvc.net/video-segmenter</url>
+    	<userName>video_segmenter_admin</userName>
+        <password>aLyv82c8aiTqNAclnSB5QyiKTSrd5HohCZGYpo7oazA=</password>
+        <secret>%hJ9kj33!cDp8fB$</secret>
+    </VideoSegmenter>
+    
+    <MediaMetadataAggregatorService>
+    	<url>https://qa-internal-api.qvcdev.qvc.net/media-metadata-aggregator</url>
+    	<userName>media_metadata_aggregator_admin</userName>
+        <password>GLCmz0ABW3ITxRs7jkjGwwMJ8Avl76hIJngjQ/oAy/U=</password>
+        <secret>Kh%9M6l3!cDpRfB$</secret>
+    </MediaMetadataAggregatorService>
+    
+    <MAM_APIService>
+    	<url>https://qa-internal-api.qvcdev.qvc.net/qan-mamapi-v1-qvc-us</url>
+    	<userName>mam_api_service_user</userName>
+        <password>AqFqHkTlaIQjJctRBKqyfw==</password>
+        <secret>7L%9M6l$6cDp6fgg</secret>
+    </MAM_APIService>
+
+    <ContentApiService>
+        <url>http://qa-content-services.qvcdev.qvc.net/content-services/rest/sales/broadcasting/v1</url>
+    </ContentApiService>
+
+    <MAM_API_Search_Service>
+        <url>https://qa-internal-api.qvcdev.qvc.net/qan-mamapi-search-v1-qvc-us</url>
+        <userName>mam_api_service_user</userName>
+        <password>AqFqHkTlaIQjJctRBKqyfw==</password>
+        <secret>7L%9M6l$6cDp6fgg</secret>
+    </MAM_API_Search_Service>
+
+    <VideoPublisher_Service>
+        <url>http://u01vqaalapp0048:10005/video-publisher/rest/v1</url>
+    </VideoPublisher_Service>
+    
+</Config>
+

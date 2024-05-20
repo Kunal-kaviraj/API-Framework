@@ -1,0 +1,6 @@
+<TestData>
+	<FilePath>
+		<channelPayload>/src/main/java/qan/api/service/channel/channelPayload.json</channelPayload>
+		<mamPayload>/src/main/java/qan/api/service/mamAPI/mamPayload.json</mamPayload>
+	</FilePath>
+</TestData>
